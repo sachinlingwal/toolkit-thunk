@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: "Oswald";
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-weight: 100;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+img {
+  margin: 1rem;
+  object-fit: cover;
+  border-radius: 2rem;
+  box-shadow: 2px 5px 15px black;
+}
+hr {
+  margin: 1rem 1.4rem;
+}
+.Gallery {
+  margin: 0 5%;
+}
+button {
+  margin: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  color: black;
+  padding: 1rem;
+  background: none;
+}
+button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
