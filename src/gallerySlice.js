@@ -19,6 +19,7 @@ export const gallerySlice = createSlice({
     [getPhotos.pending]: (state) => {
       state.isLoading = true;
     },
+
     [getPhotos.fulfilled]: (state, action) => {
       state.photos = action.payload;
       state.isLoading = false;
